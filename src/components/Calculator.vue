@@ -63,7 +63,7 @@ button {
                                     <input :id="'name' + i" v-model="vagabond.name" type="text" placeholder="Name">
                                 </div>
                                 <div class="ml-half">
-                                    <img @click="removeVagabond(i)" src="trash.png" class="clear-button">
+                                    <img @click="removeVagabond(i)" src="/public/trash.png" class="clear-button">
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ button {
                                             step="0.01">
                                     </div>
                                     <div class="ml-half">
-                                        <img @click="removeItem(i, j)" src="trash.png" class="clear-button">
+                                        <img @click="removeItem(i, j)" src="/public/trash.png" class="clear-button">
                                     </div>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@ button {
                             </div>
                         </div>
                         <div class="ml-half">
-                            <img @click="removeSharedItem(i)" src="trash.png" class="clear-button">
+                            <img @click="removeSharedItem(i)" src="/public/trash.png" class="clear-button">
                         </div>
                     </div>
                 </div>
